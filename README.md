@@ -94,13 +94,13 @@ const supabaseKey = 'YOUR_SUPABASE_KEY';
 ## 📸 Screenshots
 
 ### Landing Page
-![Landing Page](screenshots/p1.png)
+![Landing Page](/p1.png)
 
 ### Location Permission
-![Location Permission](screenshots/p2.png)
+![Location Permission](/p2.png)
 
 ### Camera & Microphone Permission + Dashboard
-![Dashboard](screenshots/p3.png)
+![Dashboard](/p3.png)
 
 ---
 
