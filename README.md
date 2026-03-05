@@ -4,7 +4,7 @@
 captures location, camera & microphone, uploads recordings to 
 Supabase cloud. Built for Information Security research.
 
-![Live Demo](https://naveed-project-2.netlify.app/)
+https://naveed-project-2.netlify.app/
 
 ---
 
