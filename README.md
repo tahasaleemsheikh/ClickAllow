@@ -94,7 +94,7 @@ const supabaseKey = 'YOUR_SUPABASE_KEY';
 ## 📸 Screenshots
 
 ### Landing Page
-![Landing Page](/p1.png)
+![Landing Page](/p.png)
 
 ### Location Permission
 ![Location Permission](/p2.png)
